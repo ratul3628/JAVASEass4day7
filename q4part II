@@ -1,0 +1,26 @@
+
+package assign4q4partii;
+
+class test
+{
+    final  int Var;
+    
+    
+    static{
+        
+        Var=78;
+    }
+    
+    static void meth(){
+        var=67;
+    }
+}
+
+
+public class Assign4q4partII {
+
+    public static void main(String[] args) {
+      
+    }
+    
+}
