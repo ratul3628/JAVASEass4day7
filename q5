@@ -1,0 +1,33 @@
+
+package assign4q5;
+
+
+final class test1
+{
+    void meth(){
+        System.out.println("final class method");
+    }
+    
+    
+}
+
+class test2 extends test1{
+    void method(){
+        System.out.println("extende class method");
+    }
+}
+public class Assign4q5 {
+
+  
+    public static void main(String[] args) {
+        
+        test1 t=new test1();
+        t.meth();
+        
+        test2 ty=new test2();
+        ty.method();
+        
+        
+    }
+    
+}
