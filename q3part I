@@ -1,0 +1,16 @@
+
+package assign4q3;
+
+class test
+{
+    final int var=99;
+    
+}
+public class Assign4q3 {
+
+    public static void main(String[] args) {
+       test obj = new test();
+        System.out.println(obj.var);
+    }
+    
+}
