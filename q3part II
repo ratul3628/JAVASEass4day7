@@ -1,0 +1,37 @@
+
+package assign4q3partii;
+
+
+class test{
+    final int var;
+    
+   {
+        var=89;
+        System.out.println("POSSIBLE INSIDE BLOCK"+var);
+    }
+    
+  /*  test(){
+      
+        var=90;
+         System.out.print("POSSIBLE INSIDE CONST"+var);
+    }
+    
+    test(int a)
+    {
+      var=98;  
+       System.out.print("POSSIBLE INSIDE 2nd CONST"+var);
+    }*/
+}
+
+public class Assign4q3partII {
+
+    
+    public static void main(String[] args) {
+        
+        test t=new test();
+        
+        
+       
+    }
+    
+}
