@@ -1,0 +1,28 @@
+
+package assign4q1;
+
+
+class demo{
+    final void display(){
+        System.out.println("parent class");
+    }
+}
+
+class c1 extends demo{
+   
+  void inspect(){    
+    System.out.println("child");
+  }
+}
+
+public class Assign4q1 {
+
+    public static void main(String[] args) {
+       
+        
+        c1 obj=new c1();
+        obj.display();
+        obj.inspect();
+    }
+    
+}
