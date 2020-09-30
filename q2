@@ -1,0 +1,29 @@
+
+package assign4q2;
+
+
+
+class demo{
+    final void display(){
+        System.out.println("parent class");
+    }
+}
+/*
+class c1 extends demo{
+    final void display(){
+        System.out.println("child class");
+    }
+}*/
+public class Assign4q2 {
+
+ 
+    public static void main(String[] args) {
+      
+        demo c2 =new demo();
+        c2.display();
+        /*
+        c1 obj=new c1();
+        obj.display();  */
+    }
+    
+}
