@@ -1,0 +1,20 @@
+
+package assign4q4parti;
+
+
+class test
+{
+    final int var=99;
+    
+}
+
+public class Assign4q4partI {
+
+   
+    public static void main(String[] args) {
+        
+        test t =new test();
+        System.out.println(t.var);
+    }
+    
+}
